@@ -1,0 +1,70 @@
+body{
+		padding:0px;
+		margin:0px;
+		text-align:center;
+		}
+h1,h5{
+		padding:0px 15px;
+		}
+.top{
+		background-colo:#399cbd;
+		}
+.searchDiv{
+		display:flex;
+   font-size:10px;
+   width:max-content;
+   margin:auto;
+   color:#f0f0f0;
+   }
+.searchDiv > div{
+		background-color:#9955ff;
+		padding:10px;
+		margin:1px;
+		border:2px solid #9955ff;
+		}	
+.searchBar{
+		display:flex;
+		width:max-content;
+		margin:1pc auto;
+		align-items:center;
+		}
+input{
+		width:270px;
+		padding:10px;
+		border-radius:15px;
+		outline:none;
+		border:.7px solid grey;
+		}
+::-webkit-input-placeholder{ 
+		text-align:center; 
+		}
+.fas{
+		font-size:24px;
+		padding-left:5px;
+		}
+.countries_info{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		margin:1.5pc auto;
+		}
+.country{
+		text-align:center;
+		font-size:13px;
+		background-color:lightskyblue;
+		colo:#f0f0f0;
+		margin:10px 5px 0px 5px;
+		width:70px;
+		padding:15px;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		opacity:0;
+		}
+span{
+		display:block;
+		}
+@keyframes appear{
+		0%{opacity:0}
+		100%{opacity:1}
+		}
